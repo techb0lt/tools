@@ -6,6 +6,10 @@ from podb_functions import read_upload, to_sql, run_sql, run_sql_file, read_sql,
 import re
 from st_aggrid import AgGrid, GridOptionsBuilder
 
+# Set wide display
+st.set_page_config(
+    layout="wide",
+)
 
 ################## Objective ########################################
 # Select Excel 1                                                    #
