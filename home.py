@@ -36,13 +36,9 @@ stb.set_book_config(
         menu_title="TOOLS",
         menu_icon="private",
         options=[
-            "PODB",   
-            "OSS / DCC - Reconcilliation",
             "Set Comparison",
             ], 
         paths=[
-            "public/podb.py", 
-            "public/reconcile.py", 
             "public/SetComparison.py", 
             ],
         save_answers=False,
