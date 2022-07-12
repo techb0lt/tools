@@ -1,7 +1,6 @@
 # podb fucntions
 
 import streamlit as st
-import streamlit_book as stb
 from st_aggrid import AgGrid, GridOptionsBuilder
 from st_aggrid.shared import GridUpdateMode
 import numpy as np
